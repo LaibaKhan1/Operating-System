@@ -1,0 +1,48 @@
+mkdir: Use to create folder 
+Syntax: mkdir newfolder
+
+
+touch: Use to create file 
+Syntax: touch newfile
+
+
+cat> : Also use to create file 
+Syntax: cat > newfile.txt
+
+
+cat>> : Write anyrhing in  the file 
+Syntax:cat >> newfile.txt
+
+cat: Print the file
+Syntax: cat newfile.txt
+
+
+rm: Use to delete file 
+Syntax: rm newfile
+
+rm -i: Ask confirmation to delete the file
+Syntax: rm -i newfile
+
+rm -d: To delete folder
+Syntax: rm -d newfolder
+
+
+cd: Changes the current directory to any accessible directory on the system.
+Syntax: cd Desktop 
+
+
+pwd (present work directory)
+Displays the name of the current directory.pwd stands for present working directory. By typing this command you are informed of which directory you are currently in.
+Syntax: pwd
+
+
+ls: Displays the listing of files and directories. If no file or directory is specified, then thecurrent directory’s contents are displayed. By default the contents are sorted alphabetically.
+Syntax: ls
+
+ls -l: Display all the file  
+
+
+more:
+
+
+
