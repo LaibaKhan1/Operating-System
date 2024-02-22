@@ -1,48 +1,100 @@
+#COMMAND 01:
+
 mkdir: Use to create folder 
 Syntax: mkdir newfolder
 
+#COMMAND 02:
 
 touch: Use to create file 
 Syntax: touch newfile
 
+#COMMAND 03:
 
 cat> : Also use to create file 
 Syntax: cat > newfile.txt
 
+#COMMAND 04:
 
 cat>> : Write anyrhing in  the file 
 Syntax:cat >> newfile.txt
 
+#COMMAND 05:
+
 cat: Print the file
 Syntax: cat newfile.txt
 
+#COMMAND 06:
 
 rm: Use to delete file 
 Syntax: rm newfile
 
+#COMMAND 07:
+
 rm -i: Ask confirmation to delete the file
 Syntax: rm -i newfile
+
+#COMMAND 08:
 
 rm -d: To delete folder
 Syntax: rm -d newfolder
 
+#COMMAND 09:
 
 cd: Changes the current directory to any accessible directory on the system.
 Syntax: cd Desktop 
 
+#COMMAND 10:
 
 pwd (present work directory)
 Displays the name of the current directory.pwd stands for present working directory. By typing this command you are informed of which directory you are currently in.
 Syntax: pwd
 
+#COMMAND 11:
 
 ls: Displays the listing of files and directories. If no file or directory is specified, then thecurrent directory’s contents are displayed. By default the contents are sorted alphabetically.
+ls -l: Display all the file  
 Syntax: ls
 
-ls -l: Display all the file  
-
+#COMMAND 12:
 
 more:
+Displays one or more files screen by screen and allows for searching and jumping to an arbitrary location in the file
+Syntax: more [-dlfs] [-number] [+number] [file….]
 
+#COMMAND 13:
 
+less:
+Displays a text file one screen at a time while allowing searching and backward scrolling.
+Syntax: less [-aeEGiINrsS] file….
+
+#COMMAND 14:
+
+find:
+Looks for files below the specified paths that match all the criteria indicated by the command-line options and takes any action indicated by those options. If no paths are specified, the search takes place below the current directory.
+Syntax: find [path…..] [Options]
+
+#COMMAND 15:
+
+chmod: Change file permissions.
+It changes the permissions of files.
+Syntax: chmod
+
+#COMMAND 16:
+
+sudo: Execute a command with superuser privileges.
+Example: sudo apt update (update package lists with superuser privileges).
+
+#COMMAND 17:
+
+apt-get/apt: Package management commands for Debian-based systems.
+Example: sudo apt-get install package_name (install a package), sudo apt-get update (update package lists).
+
+#COMMAND 18:
+
+yum/dnf: Package management commands for RPM-based systems.
+Example: sudo yum install package_name (install a package), sudo dnf update (update package lists).
+
+#COMMAND 19:
+grep: Search for patterns in files.
+Example: grep "pattern" file.txt (search for "pattern" in file.txt).
 
